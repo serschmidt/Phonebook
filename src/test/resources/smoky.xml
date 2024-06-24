@@ -3,13 +3,13 @@
 <suite name="SmockTest" verbose="1">
     <test name="NegativeUser">
         <classes>
-            <class name="com.phonebook.tests.CreateAccountTests">
+            <class name="com.phonebook.tests.LoginTests">
                 <methods>
                     <exclude name=".*Positive.*"/>
                 </methods>
             </class>
 
-            <class name="com.phonebook.tests.LoginTests">
+            <class name="com.phonebook.tests.CreateAccountTests">
                 <methods>
                     <exclude name=".*Positive.*"/>
                 </methods>
